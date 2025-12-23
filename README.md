@@ -1,9 +1,9 @@
-# AayraTechX - Advanced IT Solutions 🚀
+# AAYRAEXPORTX - Premium Timber Exports 🌲
 
 <div align="center">
-  <img src="public/logo.png" alt="AayraTechX Logo" width="120" height="120">
-  <h3>Empowering Your Digital Journey</h3>
-  <p>We help startups and enterprises build scalable, high-performance software solutions that drive real business growth.</p>
+  <img src="public/logo.png" alt="AAYRAEXPORTX Logo" width="120" height="120">
+  <h3>Quality Timber Solutions for Global Markets</h3>
+  <p>Leading exporter of premium eucalyptus wood poles and timber products, delivering sustainable forestry solutions worldwide.</p>
   
   [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -13,31 +13,43 @@
 
 ---
 
-## ✨ Features
+## 🌍 About AAYRAEXPORTX
+
+AAYRAEXPORTX is a premier timber export company specializing in high-quality eucalyptus wood poles and timber products. We are committed to sustainable forestry practices and delivering excellence in every shipment.
+
+### Our Mission
+To provide the global market with superior quality timber products while maintaining environmental responsibility and fostering long-term partnerships.
+
+### Our Vision
+To become the world's most trusted timber export brand, known for quality, sustainability, and customer satisfaction.
+
+---
+
+## ✨ Website Features
 
 ### 🎨 Modern UI/UX
-- **Premium Dark Theme** with gradient accents and glassmorphism effects
-- **Interactive 3D Elements** using React Three Fiber
-- **Smooth Animations** powered by Framer Motion
-- **Cursor Light Trail** - A smooth, glowing light that follows the mouse
+- **Premium Dark Theme** with elegant gradients and professional aesthetics
+- **Interactive 3D Elements** using React Three Fiber for immersive product visualization
+- **Smooth Animations** powered by Framer Motion for enhanced user experience
+- **Cursor Light Trail** - A smooth, glowing effect that follows the mouse
 - **Scroll-to-Top Button** for improved navigation
 
 ### 📱 Pages & Sections
 | Page | Description |
 |------|-------------|
-| **Home** | Hero section with 3D animation, services, products carousel, testimonials |
-| **About** | Company overview, mission, vision, and leadership team |
-| **Products** | Grid layout showcasing all products with filtering |
-| **Careers** | Job listings with application functionality |
-| **Booking** | Project request form with custom dropdowns and checkboxes |
-| **Contact** | Interactive form, office locations, and embedded map |
+| **Home** | Hero section with 3D visualization, featured products carousel, client testimonials |
+| **About** | Company overview, mission, vision, sustainability commitment, and team |
+| **Products** | Comprehensive showcase of eucalyptus wood pole products with specifications |
+| **Careers** | Current job openings with online application system |
+| **Booking** | Quote request form for bulk orders and custom requirements |
+| **Contact** | Contact form, office locations, and interactive map |
 
-### 🛠️ Components
-- `Loader` - Animated loading screen with logo
-- `CustomDropdown` - Stylish dropdown component
-- `CustomCheckbox` - Custom animated checkbox
-- `ScrollToTop` - Floating scroll button
-- `CursorLightEffect` - Mouse trail animation
+### 🛠️ UI Components
+- `Loader` - Professional animated loading screen
+- `CustomDropdown` - Stylish dropdown selectors
+- `CustomCheckbox` - Animated checkbox controls
+- `ScrollToTop` - Floating scroll-to-top button
+- `CursorLightEffect` - Interactive mouse trail animation
 
 ---
 
@@ -46,15 +58,15 @@
 | Technology | Purpose |
 |------------|---------|
 | [Next.js 14](https://nextjs.org/) | React Framework (App Router) |
-| [TypeScript](https://www.typescriptlang.org/) | Type Safety |
-| [Tailwind CSS](https://tailwindcss.com/) | Styling |
-| [Framer Motion](https://www.framer.com/motion/) | Animations |
-| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | 3D Graphics |
-| [Lucide React](https://lucide.dev/) | Icons |
+| [TypeScript](https://www.typescriptlang.org/) | Type Safety & Development |
+| [Tailwind CSS](https://tailwindcss.com/) | Modern Styling Framework |
+| [Framer Motion](https://www.framer.com/motion/) | Professional Animations |
+| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | 3D Product Visualization |
+| [Lucide React](https://lucide.dev/) | Icon Library |
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
 ```bash
 # Clone the repository
@@ -75,25 +87,25 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ## 📂 Project Structure
 
 ```
-aayratechx/
+aayraexportx/
 ├── public/                 # Static assets
-│   ├── images/            # Team photos, illustrations
+│   ├── images/            # Product images, team photos
 │   └── logo.png           # Company logo
 ├── src/
 │   ├── app/               # Next.js App Router
 │   │   ├── about/         # About page
-│   │   ├── booking/       # Project booking form
-│   │   ├── careers/       # We Are Hiring page
+│   │   ├── booking/       # Quote request form
+│   │   ├── careers/       # Job listings
 │   │   ├── contact/       # Contact page
-│   │   ├── products/      # Products page
+│   │   ├── products/      # Products showcase
 │   │   ├── layout.tsx     # Root layout
 │   │   ├── page.tsx       # Home page
 │   │   └── globals.css    # Global styles
 │   └── components/
-│       ├── sections/      # Hero, Services, Products, etc.
+│       ├── sections/      # Hero, Products, Testimonials, etc.
 │       ├── ui/            # Reusable UI components
-│       ├── Navbar.tsx     # Navigation
-│       └── Footer.tsx     # Footer with "Launch Your Idea" CTA
+│       ├── Navbar.tsx     # Navigation bar
+│       └── Footer.tsx     # Footer with CTA
 ├── package.json
 ├── tailwind.config.ts
 └── tsconfig.json
@@ -105,45 +117,65 @@ aayratechx/
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
+| `npm run dev` | Start development server on port 3000 |
+| `npm run build` | Build optimized production bundle |
 | `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+| `npm run lint` | Run ESLint code quality checks |
 
 ---
 
-## 🎯 Products
+## 🌲 Our Products
 
-- **JR Transport Management System (PWA)** - Fleet tracking & management
-- **GeoSurvey Pro (GIS)** - Advanced mapping & land survey tools
-- **TradeMaster** - Algorithmic trading platform
-- **HospitAll** - Hospital management system
-- **FinTrack Pro** - Financial analytics platform
-- **EduSphere** - Immersive learning management
-- **LogiChain** - Blockchain supply chain solution
+We specialize in premium eucalyptus wood poles with various specifications:
+
+### Standard Range
+- **E-Pole 4m** - 4-meter telephone/utility poles (100-120mm diameter)
+- **E-Pole 6m** - 6-meter medium-duty poles (120-150mm diameter)
+- **E-Pole 8m** - 8-meter heavy-duty utility poles (150-180mm diameter)
+- **E-Pole 10m** - 10-meter transmission poles (180-220mm diameter)
+
+### Premium Range
+- **E-Pole Premium 6m** - Enhanced treated 6-meter poles
+- **E-Pole Premium 8m** - Superior grade 8-meter poles
+- **E-Pole Premium 10m** - Top-tier 10-meter transmission poles
+- **E-Pole Custom** - Customized dimensions and treatments
+
+All products feature:
+- Natural preservative properties
+- High durability and strength
+- Sustainable harvesting
+- Quality certifications
+- Treatment options available
 
 ---
 
-## 👥 Team
+## 👥 Our Team
 
-- Priyabrata Das - CEO
-- Lokesh Singh - Full Stack Developer
-- Chinmay Saikia - Full Stack Developer
-- Tanish - Full Stack Developer
+- **Priyabrata Das** - Founder & CEO
+- **Lokesh Singh** - Operations Director
+- **Chinmay Saikia** - Export Manager
+- **Tanish** - Quality Assurance Lead
 
 ---
 
-## 📧 Contact
+## 📧 Contact Us
 
-- **Email**: info@aayratechx.com
+- **Email**: info@aayraexportx.com
 - **Phone**: +91 9702160068 / +91 7977596827
-- **Address**: Adya Palace, Mancheswar, Block B, 509, Bhubaneswar - 751007
+- **Office**: Adya Palace, Mancheswar, Block B, 509, Bhubaneswar - 751007, Odisha, India
 
 ---
 
-## 🤝 Contributing
+## 🌱 Sustainability Commitment
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+At AAYRAEXPORTX, we are committed to:
+- Sustainable forestry practices
+- Responsible sourcing from certified plantations
+- Environmental conservation
+- Supporting local communities
+- Carbon footprint reduction
+
+---
 
 ## 📄 License
 
@@ -152,5 +184,5 @@ This project is licensed under the MIT License.
 ---
 
 <div align="center">
-  <b>Built with ❤️ by AayraTechX Team</b>
+  <b>Built with ❤️ for sustainable timber solutions | AAYRAEXPORTX</b>
 </div>
