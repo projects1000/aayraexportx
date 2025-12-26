@@ -36,17 +36,18 @@ export default function Navbar() {
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="flex items-center">
-                            <div className="relative w-9 h-9">
+                        <Link href="/" className="flex items-center gap-2">
+                            <div className="relative w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                                 <Image
                                     src="/logo.png"
-                                    alt="ayraExportX Logo"
-                                    fill
-                                    className="object-contain"
+                                    alt="AayraExportX Logo"
+                                    width={32}
+                                    height={32}
+                                    className="object-cover"
                                 />
                             </div>
-                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-800 -ml-1.5 mt-1">
-                                ayraExportX
+                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
+                                AayraExportX
                             </span>
                         </Link>
                     </div>

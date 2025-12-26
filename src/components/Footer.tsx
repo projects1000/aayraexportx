@@ -9,17 +9,18 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                     {/* Brand */}
                     <div className="space-y-4">
-                        <Link href="/" className="flex items-center mb-4">
-                            <div className="relative w-8 h-8">
+                        <Link href="/" className="flex items-center gap-2 mb-4">
+                            <div className="relative w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                                 <Image
                                     src="/logo.png"
                                     alt="AAYRAEXPORTX Logo"
-                                    fill
-                                    className="object-contain"
+                                    width={28}
+                                    height={28}
+                                    className="object-cover"
                                 />
                             </div>
-                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-800 -ml-1.5 mt-1">
-                                AAYRAEXPORTX
+                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
+                                AayraExportX
                             </span>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed">

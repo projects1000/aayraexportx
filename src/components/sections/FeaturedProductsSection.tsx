@@ -71,9 +71,18 @@ export default function FeaturedProductsSection() {
                             key={product.id}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
+                            whileHover={{
+                                scale: 1.03,
+                                y: -8,
+                                transition: {
+                                    type: "spring",
+                                    stiffness: 400,
+                                    damping: 17
+                                }
+                            }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-green-600 shadow-lg hover:shadow-2xl transition-all duration-300 group"
+                            className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-green-600 shadow-lg hover:shadow-[0_20px_60px_rgba(34,197,94,0.3)] group cursor-pointer"
                         >
                             {/* Product Image */}
                             <div className="relative h-48 overflow-hidden">
