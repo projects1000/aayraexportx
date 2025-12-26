@@ -69,12 +69,12 @@ export default function ServicesSection() {
             <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-yellow-600/5 rounded-full blur-3xl pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="text-center mb-16">
-                    <span className="text-green-500 font-semibold tracking-wider uppercase">Quality Standards</span>
-                    <h2 className="text-4xl font-bold text-white mt-2">
+                <div className="text-center mb-12 sm:mb-16">
+                    <span className="text-green-500 font-semibold tracking-wider uppercase text-sm">Quality Standards</span>
+                    <h2 className="text-3xl sm:text-4xl font-bold text-white mt-2">
                         Premium <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Quality & Grading</span>
                     </h2>
-                    <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-sm sm:text-base px-4">
                         We maintain strict quality control to ensure every pole meets international export standards.
                     </p>
                 </div>
@@ -85,23 +85,23 @@ export default function ServicesSection() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16"
                 >
                     {qualityFeatures.map((feature, index) => (
                         <motion.div
                             key={index}
                             variants={itemVariants}
-                            className="group relative p-6 rounded-2xl bg-gray-900 border border-gray-700 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                            className="group relative p-5 sm:p-6 rounded-2xl bg-gray-900 border border-gray-700 shadow-lg hover:shadow-2xl transition-all duration-300 sm:hover:-translate-y-2"
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-green-700/5 to-green-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
                             <div className="relative z-10">
-                                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-green-600 to-green-700 flex items-center justify-center text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                                    <feature.icon className="w-7 h-7" />
+                                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-to-br from-green-600 to-green-700 flex items-center justify-center text-white mb-4 sm:mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    <feature.icon className="w-6 h-6 sm:w-7 sm:h-7" />
                                 </div>
 
-                                <h3 className="text-xl font-bold text-white mb-3 flex items-center">
-                                    <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                                <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3 flex items-center">
+                                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-500 mr-2 flex-shrink-0" />
                                     {feature.title}
                                 </h3>
                                 <p className="text-gray-400 text-sm leading-relaxed">
@@ -113,11 +113,11 @@ export default function ServicesSection() {
                 </motion.div>
 
                 {/* Grading Section */}
-                <div className="mt-16">
-                    <h3 className="text-3xl font-bold text-center text-white mb-12">
+                <div className="mt-12 sm:mt-16">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-center text-white mb-8 sm:mb-12">
                         Quality <span className="text-green-500">Grades</span>
                     </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                         {grades.map((grade, index) => (
                             <motion.div
                                 key={index}
@@ -125,16 +125,16 @@ export default function ServicesSection() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.2 }}
                                 viewport={{ once: true }}
-                                className="relative p-8 rounded-2xl bg-gray-900 border-2 border-green-700/30 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                                className="relative p-6 sm:p-8 rounded-2xl bg-gray-900 border-2 border-green-700/30 shadow-xl hover:shadow-2xl transition-all duration-300 sm:hover:scale-105"
                             >
                                 <div className={`absolute top-0 left-0 right-0 h-2 bg-gradient-to-r ${grade.color} rounded-t-2xl`}></div>
                                 <div className="mb-4">
-                                    <h4 className={`text-3xl font-bold bg-gradient-to-r ${grade.color} bg-clip-text text-transparent`}>
+                                    <h4 className={`text-2xl sm:text-3xl font-bold bg-gradient-to-r ${grade.color} bg-clip-text text-transparent`}>
                                         {grade.title}
                                     </h4>
                                     <p className="text-gray-400 text-sm font-medium mt-1">{grade.subtitle}</p>
                                 </div>
-                                <p className="text-gray-300 leading-relaxed">
+                                <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
                                     {grade.description}
                                 </p>
                             </motion.div>

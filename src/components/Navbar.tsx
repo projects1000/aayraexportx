@@ -37,16 +37,16 @@ export default function Navbar() {
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="relative w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
+                            <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                                 <Image
                                     src="/logo.png"
                                     alt="AayraExportX Logo"
-                                    width={32}
-                                    height={32}
-                                    className="object-cover"
+                                    width={28}
+                                    height={28}
+                                    className="object-cover sm:w-8 sm:h-8"
                                 />
                             </div>
-                            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
+                            <span className="text-lg sm:text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
                                 AayraExportX
                             </span>
                         </Link>
@@ -94,9 +94,11 @@ export default function Navbar() {
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-300 hover:text-indigo-400 focus:outline-none"
+                            className="p-2 text-gray-300 hover:text-green-400 focus:outline-none focus:ring-2 focus:ring-green-500 rounded-md transition-colors"
+                            aria-label="Toggle navigation menu"
+                            aria-expanded={isOpen}
                         >
-                            {isOpen ? <X size={24} /> : <Menu size={24} />}
+                            {isOpen ? <X size={28} /> : <Menu size={28} />}
                         </button>
                     </div>
                 </div>

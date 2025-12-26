@@ -174,23 +174,22 @@ export default function HeroSection() {
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Text Content */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="text-center lg:text-left space-y-8"
+                    className="text-center lg:text-left space-y-6 sm:space-y-8"
                 >
                     <div className="relative inline-flex overflow-hidden rounded-full p-[2px]">
                         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,transparent_75%,#15803d_90%,#d4af37_100%)]" />
-                        <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-gray-900 px-4 py-2 backdrop-blur-3xl">
-                            <span className="text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
+                        <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-gray-900 px-3 py-1.5 sm:px-4 sm:py-2 backdrop-blur-3xl">
+                            <span className="text-xs sm:text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
                                 🌲 Export-Grade Quality from India
                             </span>
                         </span>
                     </div>
 
-                    <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-white">
                         AAYRAEXPORTX <br />
                         <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 via-green-600 to-yellow-600 min-h-[1.2em] inline-block">
                             {text}
@@ -198,26 +197,26 @@ export default function HeroSection() {
                         </span>
                     </h1>
 
-                    <p className="text-lg text-gray-400 leading-relaxed">
+                    <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
                         Wholesale & Exporter of Eucalyptus (Nilgiri) Wood Poles
                     </p>
 
-                    <p className="text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
+                    <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
                         Reliable supplier of premium-quality Eucalyptus (Nilgiri) wood poles for construction, scaffolding, industrial, and export use.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 inline-block text-center">
+                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer" className="px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-base sm:text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 inline-block text-center min-h-[44px] flex items-center justify-center">
                             Get Bulk Quote
                         </a>
-                        <Link href="/contact" className="px-8 py-4 rounded-full bg-gray-800 border-2 border-green-600 text-green-400 font-bold text-lg shadow-lg hover:bg-green-600 hover:text-white hover:scale-105 transition-all duration-300 inline-block text-center">
+                        <Link href="/contact" className="px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-gray-800 border-2 border-green-600 text-green-400 font-bold text-base sm:text-lg shadow-lg hover:bg-green-600 hover:text-white hover:scale-105 transition-all duration-300 inline-block text-center min-h-[44px] flex items-center justify-center">
                             Contact Us
                         </Link>
                     </div>
                 </motion.div>
 
                 {/* 3D Animation Container */}
-                <div className="h-[500px] lg:h-[700px] w-full relative">
+                <div className="h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] w-full relative">
                     <Canvas camera={{ position: [0, 0, 5] }}>
                         <ambientLight intensity={0.4} />
                         <directionalLight position={[10, 10, 5]} intensity={0.8} />
