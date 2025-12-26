@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
 import CursorLightEffect from '@/components/CursorLightEffect';
 import Loader from '@/components/ui/Loader';
-import WhatsAppButton from '@/components/WhatsAppButton';
+import ScrollToTop from '@/components/WhatsAppButton';
 
 export default function RootLayout({
   children,
@@ -45,7 +45,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray-900 text-white`} suppressHydrationWarning>
         <Loader />
         <CursorLightEffect />
-        <WhatsAppButton />
+        <ScrollToTop />
         {children}
       </body>
     </html>
