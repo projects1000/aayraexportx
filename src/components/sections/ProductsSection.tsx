@@ -7,7 +7,7 @@ const lengthOptions = [
     'Eucalyptus wood log',
     'Basmati & Non-Basmati Rice',
     'Parboiled Rice',
-    'Cashew Nuts (W180-W240)',
+    'Cashew Nuts',
     'Millet Rice',
     'Fresh Ginger',
     'Turmeric'

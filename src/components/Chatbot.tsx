@@ -100,7 +100,7 @@ const knowledgeBase: KnowledgeEntry[] = [
         keywords: ['product', 'products', 'service', 'offer'],
         response: (
             <span>
-                Our products include basmati and non-basmati rice, parboiled rice, cashew nuts (W180-W240), millet rice, fresh ginger, and turmeric. Explore details on the{' '}
+                Our products include basmati and non-basmati rice, parboiled rice, cashew nuts, millet rice, fresh ginger, and turmeric. Explore details on the{' '}
                 <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
                     Products Page
                 </Link>
