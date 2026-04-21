@@ -8,6 +8,17 @@ import { CheckCircle, ShieldCheck, Package } from 'lucide-react';
 const products = [
     {
         id: 1,
+        name: 'Eucalyptus wood log',
+        image: '/images/products/custom/eucalyptus-wood.png',
+        grade: 'A & B Grade',
+        diameter: '4-7 inch',
+        length: '10-20 ft',
+        description: 'Durable eucalyptus wood logs suitable for scaffolding, fencing, and industrial structure support.',
+        features: ['Straight logs', 'Uniform diameter', 'Bulk stock ready', 'Export support'],
+        applications: ['Scaffolding supply', 'Farm fencing', 'Industrial use'],
+    },
+    {
+        id: 2,
         name: 'Basmati & Non-Basmati Rice',
         image: '/images/products/custom/basmati-rice.png',
         grade: 'Export Grade',
@@ -18,7 +29,7 @@ const products = [
         applications: ['Retail packaging', 'Wholesale trade', 'International export'],
     },
     {
-        id: 2,
+        id: 3,
         name: 'Parboiled Rice',
         image: '/images/products/custom/parboiled-rice.png',
         grade: 'Premium Grade',
@@ -29,7 +40,7 @@ const products = [
         applications: ['Food service', 'Institutional kitchens', 'Export consignments'],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Cashew Nuts',
         image: '/images/products/custom/cashew-nuts.png',
         grade: 'W180 - W240',
@@ -40,7 +51,7 @@ const products = [
         applications: ['Snacking brands', 'Food processing', 'Global export buyers'],
     },
     {
-        id: 4,
+        id: 5,
         name: 'Millet Rice',
         image: '/images/products/custom/millet-rice.png',
         grade: 'Natural Grade',
@@ -51,7 +62,7 @@ const products = [
         applications: ['Health food brands', 'Retail stores', 'Modern trade'],
     },
     {
-        id: 5,
+        id: 6,
         name: 'Fresh Ginger',
         image: '/images/products/custom/fresh-ginger.png',
         grade: 'A Grade Fresh',
@@ -62,7 +73,7 @@ const products = [
         applications: ['Spice distributors', 'Food processing', 'Export shipments'],
     },
     {
-        id: 6,
+        id: 7,
         name: 'Turmeric',
         image: '/images/products/custom/turmeric.png',
         grade: 'Curcumin Rich',
@@ -71,17 +82,6 @@ const products = [
         description: 'Premium turmeric with rich color and curcumin content for spice and food industries.',
         features: ['High curcumin', 'Rich natural color', 'Sun dried', 'Machine cleaned'],
         applications: ['Spice processors', 'Wholesale markets', 'Export trade'],
-    },
-    {
-        id: 7,
-        name: 'Eucalyptus Wood Poles',
-        image: '/images/products/custom/eucalyptus-wood.png',
-        grade: 'A & B Grade',
-        diameter: '4-7 inch',
-        length: '10-20 ft',
-        description: 'Durable eucalyptus wood poles suitable for scaffolding, fencing, and industrial structure support.',
-        features: ['Straight poles', 'Uniform diameter', 'Bulk stock ready', 'Export support'],
-        applications: ['Scaffolding supply', 'Farm fencing', 'Industrial use'],
     },
 ];
 
