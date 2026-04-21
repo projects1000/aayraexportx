@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#374151" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.22" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.35" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="url(#glow)" />
+  <g fill="#f3d5a1" stroke="#b77937" stroke-width="5">
+    <path d="M430 500c40-60 124-65 171-12 37 42 33 109-6 154-34 38-92 53-141 36 40-17 63-53 63-94 0-30-14-58-43-84-16-15-30-24-44-30z"/>
+    <path d="M720 420c46-66 138-70 188-14 42 46 39 121-6 171-39 43-104 60-159 41 45-19 72-60 73-106 0-35-16-66-49-95-18-16-33-25-47-31z"/>
+    <path d="M1030 510c42-61 128-66 176-13 38 42 35 111-6 157-35 39-95 54-146 37 41-17 65-55 65-98 0-31-14-60-45-87-16-14-29-23-44-30z"/>
+  </g>
+  <text x="130" y="860" fill="#ffffff" font-size="68" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Cashew Nuts</text>
+</svg>

@@ -21,7 +21,7 @@ export default function AboutSection() {
                         <div className="relative rounded-3xl p-2 flex items-center justify-center overflow-visible">
                             <img
                                 src="/images/about-illustration.png"
-                                alt="Eucalyptus Plantation"
+                                alt="Agro products sourcing and export"
                                 className="w-full h-auto max-w-md mx-auto transform hover:scale-105 transition-transform duration-500 rounded-2xl"
                             />
                         </div>
@@ -49,12 +49,12 @@ export default function AboutSection() {
                         <h2 className="text-4xl font-bold text-white leading-tight">
                             Trusted Source of <br />
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">
-                                Premium Eucalyptus Wood
+                                Premium Agro Products
                             </span>
                         </h2>
 
                         <p className="text-lg text-gray-300">
-                            AayraExportX is a trusted wholesaler and exporter of Eucalyptus (Nilgiri) wood poles, sourced directly from major plantation belts in South India.
+                            AayraExportX is a trusted wholesaler and exporter of rice, cashew nuts, millet rice, fresh ginger, and turmeric, sourced from reliable producer networks in India.
                         </p>
 
                         <div className="space-y-4">
@@ -63,9 +63,9 @@ export default function AboutSection() {
                                     <CheckCircle className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <h4 className="text-xl font-bold text-white">Direct Sourcing from Plantations</h4>
+                                    <h4 className="text-xl font-bold text-white">Direct Sourcing from Producers</h4>
                                     <p className="text-gray-400">
-                                        We source directly from certified eucalyptus plantations across South India.
+                                        We source directly from trusted mills, farms, and processing partners across India.
                                     </p>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ export default function AboutSection() {
                                 <div>
                                     <h4 className="text-xl font-bold text-white">Long-term Supply Partnerships</h4>
                                     <p className="text-gray-400">
-                                        Reliable partner for construction companies, contractors, and international buyers.
+                                        Reliable partner for food brands, distributors, wholesalers, and international buyers.
                                     </p>
                                 </div>
                             </div>

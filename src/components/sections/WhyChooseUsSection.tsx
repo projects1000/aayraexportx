@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { Building, Globe, Truck, FileText, Users, Package } from 'lucide-react';
 
 const panIndiaSupply = [
-    { title: 'Builders & Contractors', icon: Building },
-    { title: 'Scaffolding Suppliers', icon: Package },
-    { title: 'Industrial Buyers', icon: Users },
+    { title: 'Rice Distributors', icon: Building },
+    { title: 'Cashew Processors', icon: Package },
+    { title: 'Food & Commodity Buyers', icon: Users },
 ];
 
 const globalExport = [
@@ -43,7 +43,7 @@ export default function WhyChooseUsSection() {
                         Supply <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Capability</span>
                     </h2>
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Serving domestic and international markets with reliable, large-scale timber supply
+                        Serving domestic and international markets with reliable, large-scale agro commodity supply
                     </p>
                 </div>
 
@@ -63,7 +63,7 @@ export default function WhyChooseUsSection() {
                             <h3 className="text-2xl font-bold text-white">Pan India Supply</h3>
                         </div>
                         <p className="text-gray-400 mb-6">
-                            Catering to construction and industrial sectors across India
+                            Catering to wholesalers, processors, and retail channels across India
                         </p>
                         <div className="space-y-3">
                             {panIndiaSupply.map((item, index) => (
@@ -90,7 +90,7 @@ export default function WhyChooseUsSection() {
                             <h3 className="text-2xl font-bold text-white">Global Export</h3>
                         </div>
                         <p className="text-gray-400 mb-6">
-                            Export-grade poles shipped to international markets worldwide
+                            Export-grade agro products shipped to international markets worldwide
                         </p>
                         <div className="space-y-3">
                             {globalExport.map((item, index) => (

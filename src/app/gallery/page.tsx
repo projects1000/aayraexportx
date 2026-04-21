@@ -9,17 +9,17 @@ import { X } from 'lucide-react';
 const galleryImages = [
     {
         src: '/images/eucalyptus-poles-1.jpg',
-        alt: 'Stacked Eucalyptus Wood Poles',
+        alt: 'Bulk Agro Stock Ready for Dispatch',
         category: 'Yard Stock',
     },
     {
         src: '/images/eucalyptus-poles-2.jpg',
-        alt: 'Sorted Poles by Diameter',
+        alt: 'Sorted Lots by Grade',
         category: 'Quality Grading',
     },
     {
         src: '/images/eucalyptus-poles-3.jpg',
-        alt: 'Timber Yard Operations',
+        alt: 'Processing Yard Operations',
         category: 'Operations',
     },
     {
@@ -34,7 +34,7 @@ const galleryImages = [
     },
     {
         src: '/images/eucalyptus-poles-6.jpg',
-        alt: 'Eucalyptus Plantation',
+        alt: 'Producer Sourcing Network',
         category: 'Sourcing',
     },
 ];
@@ -56,10 +56,10 @@ export default function GalleryPage() {
                 >
                     <span className="text-green-500 font-semibold tracking-wider uppercase block mb-2">Our Facility</span>
                     <h1 className="text-4xl md:text-5xl font-bold text-white">
-                        Timber Yard <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">& Operations</span>
+                        Sourcing & <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Operations</span>
                     </h1>
                     <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-                        Take a look at our well-organized timber yard, quality control processes, and export operations
+                        Take a look at our sourcing network, quality control process, and export operations
                     </p>
                 </motion.div>
 
@@ -104,7 +104,7 @@ export default function GalleryPage() {
                 >
                     <p className="text-xl text-gray-300 mb-6">Interested in visiting our facility?</p>
                     <a
-                        href="https://wa.me/919702160068?text=Hello!%20I%20would%20like%20to%20visit%20your%20timber%20yard."
+                        href="https://wa.me/919702160068?text=Hello!%20I%20would%20like%20to%20visit%20your%20processing%20facility."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300"

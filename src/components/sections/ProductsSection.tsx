@@ -4,40 +4,40 @@ import { motion } from 'framer-motion';
 import { Ruler, Package, Building2, Tractor, Container } from 'lucide-react';
 
 const lengthOptions = [
-    '10 ft',
-    '12 ft',
-    '14 ft',
-    '16 ft',
-    '20 ft',
-    'Custom lengths for bulk orders'
+    'Basmati & Non-Basmati Rice',
+    'Parboiled Rice',
+    'Cashew Nuts (W180-W240)',
+    'Millet Rice',
+    'Fresh Ginger',
+    'Turmeric'
 ];
 
 const diameterSpecs = [
-    { range: '3-4 inch', usage: 'Light duty', icon: Ruler, color: 'from-green-400 to-green-500' },
-    { range: '4-5 inch', usage: 'Standard construction', icon: Building2, color: 'from-green-500 to-green-600' },
-    { range: '5-6 inch', usage: 'Heavy duty', icon: Package, color: 'from-green-600 to-green-700' },
-    { range: '6-8 inch+', usage: 'Industrial & export grade', icon: Container, color: 'from-green-700 to-green-800' },
+    { range: 'Rice Quality', usage: 'Sortex cleaned, low moisture, export ready', icon: Ruler, color: 'from-green-400 to-green-500' },
+    { range: 'Cashew Grades', usage: 'Premium whole kernels from 180 to 240', icon: Building2, color: 'from-green-500 to-green-600' },
+    { range: 'Fresh Produce', usage: 'Ginger and turmeric sourced and graded fresh', icon: Package, color: 'from-green-600 to-green-700' },
+    { range: 'Packaging', usage: '5kg to 50kg options for bulk and retail supply', icon: Container, color: 'from-green-700 to-green-800' },
 ];
 
 const applications = [
     {
-        title: 'Construction Scaffolding',
-        description: 'Ideal for temporary support structures in construction',
+        title: 'Domestic Wholesale',
+        description: 'Reliable supply for local distributors and wholesale markets',
         icon: Building2,
     },
     {
-        title: 'Industrial & Commercial Projects',
-        description: 'Heavy-duty applications requiring durable wood poles',
+        title: 'Retail Packaging',
+        description: 'Consumer-ready packs for modern trade and retail channels',
         icon: Package,
     },
     {
-        title: 'Agriculture Fencing',
-        description: 'Natural fencing solutions for farms and estates',
+        title: 'Food Processing',
+        description: 'Quality raw materials for food and spice processing units',
         icon: Tractor,
     },
     {
-        title: 'Export Packaging & Structures',
-        description: 'Export-grade poles for international markets',
+        title: 'Export Trade',
+        description: 'Consistent quality for international buyers and importers',
         icon: Container,
     },
 ];
@@ -49,17 +49,17 @@ export default function ProductsSection() {
                 <div className="text-center mb-16">
                     <span className="text-green-500 font-semibold tracking-wider uppercase">Our Products</span>
                     <h2 className="text-4xl font-bold text-white mt-2">
-                        Eucalyptus (Nilgiri) <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Wood Poles</span>
+                        Agro Export <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Commodities</span>
                     </h2>
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Available in various sizes and specifications to meet your construction and industrial needs
+                        Available in export-ready grades and flexible pack sizes to meet domestic and international demand
                     </p>
                 </div>
 
                 {/* Length Options */}
                 <div className="mb-16">
                     <h3 className="text-2xl font-bold text-white text-center mb-8">
-                        Available <span className="text-green-500">Length Options</span>
+                        Available <span className="text-green-500">Product Lines</span>
                     </h3>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export default function ProductsSection() {
                 {/* Diameter Specifications */}
                 <div className="mb-16">
                     <h3 className="text-2xl font-bold text-white text-center mb-8">
-                        Diameter <span className="text-green-500">Specifications</span>
+                        Quality <span className="text-green-500">Specifications</span>
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {diameterSpecs.map((spec, index) => (
@@ -140,7 +140,7 @@ export default function ProductsSection() {
                     className="mt-16 text-center"
                 >
                     <a
-                        href="https://wa.me/919702160068?text=Hello!%20I%20need%20a%20quote%20for%20eucalyptus%20wood%20poles."
+                        href="https://wa.me/919702160068?text=Hello!%20I%20need%20a%20quote%20for%20rice,%20cashew,%20millet,%20ginger,%20and%20turmeric."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300"

@@ -23,11 +23,11 @@ export default function AboutPage() {
                         </span>
                         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                             Trusted Wholesale Supplier <br />
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">of Premium Eucalyptus</span> <br />
-                            Wood Poles from India
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">of Premium Agro Products</span> <br />
+                            from India
                         </h1>
                         <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                            At AAYRAEXPORTX, we specialize in sourcing and exporting high-quality Eucalyptus (Nilgiri) wood poles directly from major plantation belts across South India.
+                            At AAYRAEXPORTX, we specialize in sourcing and exporting high-quality rice, cashew nuts, millet rice, fresh ginger, and turmeric from trusted Indian producer networks.
                         </p>
                     </motion.div>
                 </div>
@@ -42,7 +42,7 @@ export default function AboutPage() {
                     >
                         <img
                             src="/images/about-illustration.png"
-                            alt="Eucalyptus Timber Business"
+                            alt="Agro export business"
                             className="w-full h-auto rounded-2xl shadow-2xl"
                         />
                     </motion.div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
                                 About <span className="text-green-500">AAYRAEXPORTX</span>
                             </h2>
                             <p className="text-gray-300 leading-relaxed">
-                                AAYRAEXPORTX is a reliable wholesaler and exporter specializing in Eucalyptus (Nilgiri) wood poles. We serve both domestic and international markets with premium-quality timber products.
+                                AAYRAEXPORTX is a reliable wholesaler and exporter specializing in agro commodities. We serve both domestic and international markets with premium-quality products and dependable shipment planning.
                             </p>
                         </div>
 
@@ -71,7 +71,7 @@ export default function AboutPage() {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2">Who We Are</h3>
                                     <p className="text-gray-300">
-                                        A dedicated team with extensive experience in timber sourcing, grading, and export logistics for construction and industrial sectors.
+                                        A dedicated team with extensive experience in agro sourcing, quality grading, and export logistics for food and commodity markets.
                                     </p>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ export default function AboutPage() {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2">Our Mission</h3>
                                     <p className="text-gray-300">
-                                        To provide reliable, consistent supply of export-grade eucalyptus wood poles while maintaining the highest quality standards and building long-term partnerships.
+                                        To provide reliable and consistent supply of export-grade rice, cashew nuts, millet rice, ginger, and turmeric while maintaining high quality standards and long-term partnerships.
                                     </p>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2">Our Vision</h3>
                                     <p className="text-gray-300">
-                                        To be recognized as the leading exporter of eucalyptus wood poles from India, known for quality, reliability, and customer satisfaction in global markets.
+                                        To be recognized as a trusted Indian exporter of essential agro products, known for quality, reliability, and customer satisfaction in global markets.
                                     </p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                         <div className="p-6 rounded-xl bg-gray-800 border border-gray-700">
                             <h4 className="text-xl font-bold text-white mb-3">Quality Assurance</h4>
                             <p className="text-gray-400">
-                                Rigorous grading and inspection processes to ensure only premium-quality poles reach our customers.
+                                Rigorous grading and inspection processes to ensure only premium-quality products reach our customers.
                             </p>
                         </div>
                     </div>

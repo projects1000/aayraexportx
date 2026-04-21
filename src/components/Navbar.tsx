@@ -83,7 +83,7 @@ export default function Navbar() {
                                 </Link>
                             </div>
                         ))}
-                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20rice,%20cashew,%20millet,%20ginger,%20and%20turmeric." target="_blank" rel="noopener noreferrer">
                             <span className="ml-4 bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-2 rounded-full font-medium hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 inline-block cursor-pointer">
                                 Get Bulk Quote
                             </span>
@@ -126,7 +126,7 @@ export default function Navbar() {
                                 </Link>
                             ))}
                             <div className="pt-4">
-                                <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+                                <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20rice,%20cashew,%20millet,%20ginger,%20and%20turmeric." target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                                     <span className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-full font-medium shadow-md hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] transition-all duration-300 block text-center cursor-pointer">
                                         Get Bulk Quote
                                     </span>

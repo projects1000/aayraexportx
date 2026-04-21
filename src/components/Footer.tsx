@@ -24,7 +24,7 @@ export default function Footer() {
                             </span>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Leading wholesale supplier and exporter of premium Eucalyptus (Nilgiri) wood poles from India. Export-grade quality for construction and industrial use.
+                            Leading wholesale supplier and exporter of premium rice, cashew nuts, millet rice, fresh ginger, and turmeric from India.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-gray-400 hover:text-green-500 hover:-translate-y-1 transition-all duration-300">
@@ -41,7 +41,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <div className="mt-6">
-                            <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20rice,%20cashew,%20millet,%20ginger,%20and%20turmeric." target="_blank" rel="noopener noreferrer">
                                 <button className="px-6 py-2 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-sm shadow-lg hover:shadow-[0_0_20px_rgba(34,197,94,0.5)] hover:scale-105 transition-all duration-300">
                                     Get Bulk Quote
                                 </button>
@@ -73,16 +73,16 @@ export default function Footer() {
                         <h3 className="text-lg font-bold mb-6">Products</h3>
                         <ul className="space-y-3">
                             <li>
-                                <a href="/#products" className="text-gray-400 hover:text-white transition-colors">Eucalyptus Poles</a>
+                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Basmati & Non-Basmati Rice</Link>
                             </li>
                             <li>
-                                <a href="/#products" className="text-gray-400 hover:text-white transition-colors">Scaffolding Poles</a>
+                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Parboiled Rice</Link>
                             </li>
                             <li>
-                                <a href="/#quality" className="text-gray-400 hover:text-white transition-colors">Quality Grading</a>
+                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Cashew Nuts (W180-W240)</Link>
                             </li>
                             <li>
-                                <a href="/#supply" className="text-gray-400 hover:text-white transition-colors">Export Services</a>
+                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Millet, Ginger & Turmeric</Link>
                             </li>
                         </ul>
                     </div>

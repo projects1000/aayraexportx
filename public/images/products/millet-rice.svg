@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe9c9"/>
+      <stop offset="100%" stop-color="#c8b76c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="#d7c36d" stroke="#9a8531" stroke-width="2">
+    <circle cx="180" cy="200" r="20"/><circle cx="240" cy="240" r="24"/><circle cx="300" cy="190" r="21"/>
+    <circle cx="370" cy="230" r="25"/><circle cx="430" cy="180" r="20"/><circle cx="500" cy="230" r="24"/>
+    <circle cx="570" cy="190" r="21"/><circle cx="640" cy="240" r="24"/><circle cx="710" cy="200" r="22"/>
+    <circle cx="780" cy="245" r="24"/><circle cx="850" cy="195" r="21"/><circle cx="920" cy="240" r="24"/>
+    <circle cx="990" cy="200" r="22"/><circle cx="1060" cy="250" r="24"/>
+    <circle cx="210" cy="360" r="24"/><circle cx="280" cy="410" r="25"/><circle cx="350" cy="355" r="23"/>
+    <circle cx="430" cy="410" r="26"/><circle cx="510" cy="355" r="22"/><circle cx="590" cy="420" r="26"/>
+    <circle cx="680" cy="360" r="23"/><circle cx="770" cy="420" r="26"/><circle cx="860" cy="360" r="23"/>
+    <circle cx="950" cy="420" r="25"/><circle cx="1040" cy="360" r="22"/>
+  </g>
+  <rect x="60" y="620" width="1080" height="120" rx="24" fill="#0f172a" fill-opacity="0.82"/>
+  <text x="100" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Millet Rice</text>
+</svg>

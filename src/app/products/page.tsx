@@ -3,52 +3,85 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { CheckCircle, Ruler, Package } from 'lucide-react';
+import { CheckCircle, ShieldCheck, Package } from 'lucide-react';
 
 const products = [
     {
         id: 1,
-        name: 'Construction Scaffolding Poles',
-        image: '/images/product-scaffolding.jpg',
-        grade: 'A & B Grade',
-        diameter: '4-6 inch',
-        length: '10-20 ft',
-        description: 'Premium eucalyptus poles ideal for construction scaffolding and temporary structures.',
-        features: ['High strength', 'Uniform diameter', 'Crack-free', 'Air-dried'],
-        applications: ['Building construction', 'Scaffolding systems', 'Support structures'],
+        name: 'Basmati & Non-Basmati Rice',
+        image: '/images/products/custom/basmati-rice.png',
+        grade: 'Export Grade',
+        diameter: 'Sortex Clean',
+        length: '5kg-50kg packs',
+        description: 'Premium basmati and non-basmati rice with consistent grain quality for domestic and export supply.',
+        features: ['Uniform grain size', 'Low moisture', 'Sortex cleaned', 'Custom packing'],
+        applications: ['Retail packaging', 'Wholesale trade', 'International export'],
     },
     {
         id: 2,
-        name: 'Agricultural Fencing Poles',
-        image: '/images/product-fencing.jpg',
-        grade: 'B Grade',
-        diameter: '3-5 inch',
-        length: '8-16 ft',
-        description: 'Durable fencing poles perfect for agricultural and farm applications.',
-        features: ['Weather resistant', 'Natural treatment', 'Long-lasting', 'Cost-effective'],
-        applications: ['Farm fencing', 'Property boundaries', 'Livestock enclosures'],
+        name: 'Parboiled Rice',
+        image: '/images/products/custom/parboiled-rice.png',
+        grade: 'Premium Grade',
+        diameter: 'Long & Medium Grain',
+        length: '5kg-50kg packs',
+        description: 'Nutritious parboiled rice processed for better shelf life and cooking stability.',
+        features: ['Parboiled process', 'Better shelf life', 'Low broken ratio', 'Bulk availability'],
+        applications: ['Food service', 'Institutional kitchens', 'Export consignments'],
     },
     {
         id: 3,
-        name: 'Heavy-Duty Industrial Poles',
-        image: '/images/product-industrial.jpg',
-        grade: 'A Grade',
-        diameter: '6-8 inch+',
-        length: '12-20 ft',
-        description: 'Extra thick poles for heavy-duty industrial and commercial applications.',
-        features: ['Maximum strength', 'Large diameter', 'Premium quality', 'Export grade'],
-        applications: ['Industrial construction', 'Mining support', 'Heavy structures'],
+        name: 'Cashew Nuts',
+        image: '/images/products/custom/cashew-nuts.png',
+        grade: 'W180 - W240',
+        diameter: 'Whole Kernels',
+        length: '10kg-25kg packs',
+        description: 'High-quality cashew kernels available in premium grades from 180 to 240.',
+        features: ['Grade range 180-240', 'Uniform white kernels', 'Vacuum packed', 'Export quality'],
+        applications: ['Snacking brands', 'Food processing', 'Global export buyers'],
     },
     {
         id: 4,
-        name: 'Export Grade Premium Poles',
-        image: '/images/product-export.jpg',
-        grade: 'A+ Export Grade',
+        name: 'Millet Rice',
+        image: '/images/products/custom/millet-rice.png',
+        grade: 'Natural Grade',
+        diameter: 'Foxtail/Pearl Mix Options',
+        length: '5kg-25kg packs',
+        description: 'Healthy millet rice options sourced for nutrition-focused retail and bulk markets.',
+        features: ['High fiber', 'Naturally gluten free', 'Cleaned and graded', 'Farm-direct sourcing'],
+        applications: ['Health food brands', 'Retail stores', 'Modern trade'],
+    },
+    {
+        id: 5,
+        name: 'Fresh Ginger',
+        image: '/images/products/custom/fresh-ginger.png',
+        grade: 'A Grade Fresh',
+        diameter: 'Bold / Medium',
+        length: '5kg-30kg cartons',
+        description: 'Fresh ginger with strong aroma and low fiber, suitable for export and processing.',
+        features: ['Freshly harvested', 'Strong aroma', 'Low fiber', 'Careful sorting'],
+        applications: ['Spice distributors', 'Food processing', 'Export shipments'],
+    },
+    {
+        id: 6,
+        name: 'Turmeric',
+        image: '/images/products/custom/turmeric.png',
+        grade: 'Curcumin Rich',
+        diameter: 'Finger / Bulb',
+        length: '5kg-50kg packs',
+        description: 'Premium turmeric with rich color and curcumin content for spice and food industries.',
+        features: ['High curcumin', 'Rich natural color', 'Sun dried', 'Machine cleaned'],
+        applications: ['Spice processors', 'Wholesale markets', 'Export trade'],
+    },
+    {
+        id: 7,
+        name: 'Eucalyptus Wood Poles',
+        image: '/images/products/custom/eucalyptus-wood.png',
+        grade: 'A & B Grade',
         diameter: '4-7 inch',
         length: '10-20 ft',
-        description: 'Top-quality export-grade poles with superior straightness and finish.',
-        features: ['Export certified', 'Perfect straightness', 'Debarked', 'Premium sorting'],
-        applications: ['International markets', 'High-end projects', 'Quality-focused buyers'],
+        description: 'Durable eucalyptus wood poles suitable for scaffolding, fencing, and industrial structure support.',
+        features: ['Straight poles', 'Uniform diameter', 'Bulk stock ready', 'Export support'],
+        applications: ['Scaffolding supply', 'Farm fencing', 'Industrial use'],
     },
 ];
 
@@ -67,16 +100,16 @@ export default function ProductsPageShowcase() {
                 >
                     <span className="text-green-500 font-semibold tracking-wider uppercase block mb-2">Our Products</span>
                     <h1 className="text-4xl md:text-5xl font-bold text-white">
-                        Eucalyptus (Nilgiri) <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Wood Poles</span>
+                        Agro Export <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Product Range</span>
                     </h1>
                     <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-                        Premium quality eucalyptus wood poles available in various sizes and grades for all your construction and industrial needs
+                        Premium rice, cashew, millet, and fresh spice products available in export-ready quality and custom pack sizes
                     </p>
                 </motion.div>
 
                 {/* Products Grid */}
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {products.map((product, index) => (
                             <motion.div
                                 key={product.id}
@@ -84,55 +117,57 @@ export default function ProductsPageShowcase() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-green-600 shadow-lg hover:shadow-2xl transition-all duration-300 group"
+                                className="group flex flex-col rounded-2xl overflow-hidden border border-gray-700/80 bg-gradient-to-b from-gray-800 to-gray-900 shadow-[0_10px_28px_rgba(2,6,23,0.42)] hover:border-green-500/70 hover:shadow-[0_14px_34px_rgba(34,197,94,0.2)] transition-all duration-300"
                             >
                                 {/* Product Image */}
-                                <div className="relative h-64 overflow-hidden">
-                                    <img
-                                        src={product.image}
-                                        alt={product.name}
-                                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                                    />
-                                    <div className="absolute top-4 right-4 bg-green-600 text-white px-4 py-2 rounded-full text-sm font-bold">
+                                <div className="relative h-56 md:h-60 p-3 bg-gradient-to-b from-gray-900/90 to-gray-800/70">
+                                    <div className="relative h-full w-full rounded-xl bg-gray-950/55 ring-1 ring-white/10 flex items-center justify-center overflow-hidden">
+                                        <img
+                                            src={product.image}
+                                            alt={product.name}
+                                            className="relative z-10 w-full h-full object-cover transform group-hover:scale-[1.02] transition-transform duration-500"
+                                        />
+                                    </div>
+                                    <div className="absolute top-3 right-3 bg-green-600 text-white px-3 py-1.5 rounded-full text-xs font-bold">
                                         {product.grade}
                                     </div>
                                 </div>
 
                                 {/* Product Details */}
-                                <div className="p-6">
-                                    <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors">
+                                <div className="p-5 md:p-6 flex flex-col flex-1">
+                                    <h3 className="text-xl md:text-2xl font-bold text-white mb-2.5 group-hover:text-green-300 transition-colors min-h-[58px] flex items-start leading-tight">
                                         {product.name}
                                     </h3>
 
-                                    <p className="text-gray-400 mb-4">
+                                    <p className="text-gray-300/90 mb-4 text-sm md:text-base leading-relaxed min-h-[68px]">
                                         {product.description}
                                     </p>
 
                                     {/* Specifications */}
-                                    <div className="grid grid-cols-2 gap-4 mb-4">
-                                        <div className="flex items-center text-gray-300">
-                                            <Ruler className="w-5 h-5 text-green-500 mr-2" />
+                                    <div className="grid grid-cols-2 gap-3 mb-4">
+                                        <div className="flex items-center rounded-xl border border-gray-700/80 bg-gray-900/55 px-3 py-3 text-gray-100">
+                                            <ShieldCheck className="w-5 h-5 text-green-400 mr-2 flex-shrink-0" />
                                             <div>
-                                                <p className="text-xs text-gray-500">Diameter</p>
-                                                <p className="font-semibold">{product.diameter}</p>
+                                                <p className="text-xs text-gray-500 uppercase tracking-wide">Quality</p>
+                                                <p className="font-semibold text-sm md:text-base">{product.diameter}</p>
                                             </div>
                                         </div>
-                                        <div className="flex items-center text-gray-300">
-                                            <Package className="w-5 h-5 text-green-500 mr-2" />
+                                        <div className="flex items-center rounded-xl border border-gray-700/80 bg-gray-900/55 px-3 py-3 text-gray-100">
+                                            <Package className="w-5 h-5 text-green-400 mr-2 flex-shrink-0" />
                                             <div>
-                                                <p className="text-xs text-gray-500">Length</p>
-                                                <p className="font-semibold">{product.length}</p>
+                                                <p className="text-xs text-gray-500 uppercase tracking-wide">Pack Size</p>
+                                                <p className="font-semibold text-sm md:text-base">{product.length}</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     {/* Features */}
                                     <div className="mb-4">
-                                        <h4 className="text-sm font-semibold text-white mb-2">Key Features:</h4>
-                                        <div className="grid grid-cols-2 gap-2">
+                                        <h4 className="text-sm font-semibold text-white mb-2 tracking-wide uppercase">Key Features</h4>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                                             {product.features.map((feature, idx) => (
-                                                <div key={idx} className="flex items-center text-sm text-gray-400">
-                                                    <CheckCircle className="w-4 h-4 text-green-500 mr-1 flex-shrink-0" />
+                                                <div key={idx} className="flex items-center text-sm text-gray-300 leading-snug">
+                                                    <CheckCircle className="w-4 h-4 text-green-400 mr-1.5 flex-shrink-0" />
                                                     <span>{feature}</span>
                                                 </div>
                                             ))}
@@ -141,10 +176,10 @@ export default function ProductsPageShowcase() {
 
                                     {/* Applications */}
                                     <div className="mb-4">
-                                        <h4 className="text-sm font-semibold text-white mb-2">Applications:</h4>
+                                        <h4 className="text-sm font-semibold text-white mb-2 tracking-wide uppercase">Applications</h4>
                                         <div className="flex flex-wrap gap-2">
                                             {product.applications.map((app, idx) => (
-                                                <span key={idx} className="text-xs bg-gray-700 text-gray-300 px-3 py-1 rounded-full">
+                                                <span key={idx} className="text-xs bg-gray-700/70 text-gray-200 border border-gray-600/60 px-2.5 py-1 rounded-full break-words">
                                                     {app}
                                                 </span>
                                             ))}
@@ -156,7 +191,7 @@ export default function ProductsPageShowcase() {
                                         href={`https://wa.me/919702160068?text=Hello!%20I'm%20interested%20in%20${encodeURIComponent(product.name)}.%20Please%20provide%20pricing%20and%20availability.`}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block w-full mt-4 px-6 py-3 rounded-lg bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold text-center hover:shadow-[0_0_20px_rgba(34,197,94,0.5)] transition-all duration-300"
+                                        className="block w-full mt-auto px-5 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-700 text-white text-sm md:text-base font-semibold text-center hover:shadow-[0_0_22px_rgba(34,197,94,0.45)] transition-all duration-300"
                                     >
                                         Request Quote
                                     </a>
@@ -179,10 +214,10 @@ export default function ProductsPageShowcase() {
                             Need Custom Specifications or Bulk Orders?
                         </h3>
                         <p className="text-gray-400 mb-6">
-                            We accommodate special requirements and large volume orders. Contact us for custom quotes and flexible delivery options.
+                            We accommodate special requirements and large volume orders. Contact us for custom commodity quotes and flexible delivery options.
                         </p>
                         <a
-                            href="https://wa.me/919702160068?text=Hello!%20I%20need%20a%20custom%20quote%20for%20bulk%20eucalyptus%20wood%20poles."
+                            href="https://wa.me/919702160068?text=Hello!%20I%20need%20a%20custom%20quote%20for%20bulk%20agro%20products."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300"

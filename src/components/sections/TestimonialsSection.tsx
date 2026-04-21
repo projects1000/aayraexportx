@@ -8,7 +8,7 @@ const stats = [
         icon: TrendingUp,
         value: '10+',
         label: 'Years Experience',
-        description: 'Serving the timber industry',
+        description: 'Serving the agro commodity trade',
     },
     {
         icon: Users,
@@ -88,10 +88,10 @@ export default function TestimonialsSection() {
                     className="mt-16 text-center"
                 >
                     <p className="text-xl text-gray-300 mb-6">
-                        Ready to partner with a trusted timber exporter?
+                        Ready to partner with a trusted agro products exporter?
                     </p>
                     <a
-                        href="https://wa.me/919702160068?text=Hello!%20I%20want%20to%20discuss%20a%20long-term%20partnership%20for%20eucalyptus%20wood%20poles."
+                        href="https://wa.me/919702160068?text=Hello!%20I%20want%20to%20discuss%20a%20long-term%20partnership%20for%20agro%20products."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300"

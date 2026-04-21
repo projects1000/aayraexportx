@@ -17,34 +17,6 @@ function WoodGrainSpheres() {
         ]);
     });
 
-    // Create wood grain texture simulation using noise-like patterns
-    const createWoodTexture = (baseColor: string, ringColor: string) => {
-        const canvas = document.createElement('canvas');
-        canvas.width = 512;
-        canvas.height = 512;
-        const ctx = canvas.getContext('2d')!;
-
-        // Base wood color
-        ctx.fillStyle = baseColor;
-        ctx.fillRect(0, 0, 512, 512);
-
-        // Add wood grain rings
-        for (let i = 0; i < 40; i++) {
-            ctx.strokeStyle = ringColor;
-            ctx.lineWidth = Math.random() * 3 + 1;
-            ctx.globalAlpha = 0.15 + Math.random() * 0.2;
-
-            const radius = i * 12 + Math.random() * 10;
-            ctx.beginPath();
-            ctx.arc(256, 256, radius, 0, Math.PI * 2);
-            ctx.stroke();
-        }
-
-        const texture = new THREE.CanvasTexture(canvas);
-        texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
-        return texture;
-    };
-
     return (
         <group rotation={rotation as any}>
             {/* Large center sphere - Light wood */}
@@ -97,7 +69,7 @@ function WoodGrainSpheres() {
                 />
             </mesh>
 
-            {/* Accent sphere - Green (fresh eucalyptus) */}
+            {/* Accent sphere - fresh produce theme */}
             <mesh position={[0.5, -0.3, 1.2]}>
                 <sphereGeometry args={[0.5, 64, 64]} />
                 <meshStandardMaterial
@@ -135,14 +107,13 @@ function WoodGrainSpheres() {
 
 export default function HeroSection() {
     const [text, setText] = useState('');
-    const fullText = 'Premium Eucalyptus Wood Poles';
+    const fullText = 'Premium Agro Export Products';
     const [isDeleting, setIsDeleting] = useState(false);
     const [loopNum, setLoopNum] = useState(0);
     const [typingSpeed, setTypingSpeed] = useState(150);
 
     useEffect(() => {
         const handleTyping = () => {
-            const i = loopNum % 1;
             const fullTxt = fullText;
 
             setText(
@@ -166,7 +137,7 @@ export default function HeroSection() {
     }, [text, isDeleting, loopNum, typingSpeed]);
 
     return (
-        <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gray-900">
+        <section className="relative min-h-screen flex items-center pt-24 md:pt-28 overflow-hidden bg-gray-900">
             {/* Background Shapes */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
                 <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-green-700/20 blur-[100px] animate-pulse"></div>
@@ -181,11 +152,11 @@ export default function HeroSection() {
                     transition={{ duration: 0.8 }}
                     className="text-center lg:text-left space-y-8"
                 >
-                    <div className="relative inline-flex overflow-hidden rounded-full p-[2px]">
+                    <div className="relative inline-flex overflow-hidden rounded-full p-[2px] max-w-full">
                         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,transparent_75%,#15803d_90%,#d4af37_100%)]" />
-                        <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-gray-900 px-4 py-2 backdrop-blur-3xl">
-                            <span className="text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
-                                🌲 Export-Grade Quality from India
+                        <span className="relative inline-flex items-center justify-center rounded-full bg-gray-900 px-4 py-2 backdrop-blur-3xl">
+                            <span className="text-sm font-semibold leading-none bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-yellow-600">
+                                Export-Grade Agro Quality from India
                             </span>
                         </span>
                     </div>
@@ -199,15 +170,15 @@ export default function HeroSection() {
                     </h1>
 
                     <p className="text-lg text-gray-400 leading-relaxed">
-                        Wholesale & Exporter of Eucalyptus (Nilgiri) Wood Poles
+                        Wholesale Supplier & Exporter of Agro Commodities
                     </p>
 
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
-                        Reliable supplier of premium-quality Eucalyptus (Nilgiri) wood poles for construction, scaffolding, industrial, and export use.
+                        Reliable supplier of basmati and non-basmati rice, parboiled rice, cashew nuts (W180-W240), millet rice, fresh ginger, and turmeric.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20eucalyptus%20wood%20poles." target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 inline-block text-center">
+                        <a href="https://wa.me/919702160068?text=Hello!%20I%20am%20interested%20in%20bulk%20rice,%20cashew,%20millet,%20ginger,%20and%20turmeric." target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-gradient-to-r from-green-600 to-green-700 text-white font-bold text-lg shadow-lg hover:shadow-[0_0_40px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 inline-block text-center">
                             Get Bulk Quote
                         </a>
                         <Link href="/contact" className="px-8 py-4 rounded-full bg-gray-800 border-2 border-green-600 text-green-400 font-bold text-lg shadow-lg hover:bg-green-600 hover:text-white hover:scale-105 transition-all duration-300 inline-block text-center">
