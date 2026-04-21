@@ -79,7 +79,7 @@ export default function Footer() {
                                 <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Parboiled Rice</Link>
                             </li>
                             <li>
-                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Cashew Nuts (W180-W240)</Link>
+                                <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Cashew Nuts</Link>
                             </li>
                             <li>
                                 <Link href="/#products" className="text-gray-400 hover:text-white transition-colors">Millet, Ginger & Turmeric</Link>

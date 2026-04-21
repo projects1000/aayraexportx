@@ -254,7 +254,7 @@ export default function HeroSection() {
                     </p>
 
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0">
-                        Reliable supplier of basmati and non-basmati rice, parboiled rice, cashew nuts (W180-W240), millet rice, fresh ginger, and turmeric.
+                        Reliable supplier of basmati and non-basmati rice, parboiled rice, cashew nuts, millet rice, fresh ginger, and turmeric.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
