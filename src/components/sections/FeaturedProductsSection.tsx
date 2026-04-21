@@ -7,43 +7,43 @@ import Link from 'next/link';
 const featuredProducts = [
     {
         id: 1,
-        name: 'Construction Scaffolding Poles',
-        image: '/images/product-scaffolding.jpg',
-        grade: 'A & B Grade',
-        diameter: '4-6 inch',
-        length: '10-20 ft',
-        description: 'Premium eucalyptus poles ideal for construction scaffolding and temporary structures.',
-        features: ['High strength', 'Uniform diameter', 'Crack-free'],
+        name: 'Basmati & Non-Basmati Rice',
+        image: '/images/products/custom/basmati-rice.png',
+        grade: 'Export Grade',
+        diameter: 'Sortex Clean',
+        length: '5kg-50kg packs',
+        description: 'Premium basmati and non-basmati rice with consistent quality and custom packaging.',
+        features: ['Low moisture', 'Uniform grains', 'Custom packs'],
     },
     {
         id: 2,
-        name: 'Agricultural Fencing Poles',
-        image: '/images/product-fencing.jpg',
-        grade: 'B Grade',
-        diameter: '3-5 inch',
-        length: '8-16 ft',
-        description: 'Durable fencing poles perfect for agricultural and farm applications.',
-        features: ['Weather resistant', 'Natural treatment', 'Cost-effective'],
+        name: 'Parboiled Rice',
+        image: '/images/products/custom/parboiled-rice.png',
+        grade: 'Premium Grade',
+        diameter: 'Long & Medium Grain',
+        length: '5kg-50kg packs',
+        description: 'Parboiled rice with better shelf life and stable cooking performance.',
+        features: ['Low broken ratio', 'Bulk supply', 'Export ready'],
     },
     {
         id: 3,
-        name: 'Heavy-Duty Industrial Poles',
-        image: '/images/product-industrial.jpg',
-        grade: 'A Grade',
-        diameter: '6-8 inch+',
-        length: '12-20 ft',
-        description: 'Extra thick poles for heavy-duty industrial and commercial applications.',
-        features: ['Maximum strength', 'Large diameter', 'Export grade'],
+        name: 'Cashew Nuts',
+        image: '/images/products/custom/cashew-nuts.png',
+        grade: 'W180 - W240',
+        diameter: 'Whole Kernels',
+        length: '10kg-25kg packs',
+        description: 'Premium quality cashew kernels, available in grades 180 to 240.',
+        features: ['Grade 180-240', 'Uniform kernels', 'Vacuum packed'],
     },
     {
         id: 4,
-        name: 'Export Grade Premium Poles',
-        image: '/images/product-export.jpg',
-        grade: 'A+ Export',
-        diameter: '4-7 inch',
-        length: '10-20 ft',
-        description: 'Top-quality export-grade poles with superior straightness and finish.',
-        features: ['Export certified', 'Perfect straightness', 'Debarked'],
+        name: 'Millet Rice, Fresh Ginger & Turmeric',
+        image: '/images/products/custom/millet-rice.png',
+        grade: 'Natural Export Quality',
+        diameter: 'Cleaned & Graded',
+        length: '5kg-50kg packs',
+        description: 'Nutritious millet rice and freshly sourced ginger and turmeric for export markets.',
+        features: ['Farm-direct sourcing', 'High freshness', 'Curcumin rich turmeric'],
     },
 ];
 
@@ -60,7 +60,7 @@ export default function FeaturedProductsSection() {
                         Our <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Product Range</span>
                     </h2>
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Explore our selection of premium eucalyptus wood poles for various applications
+                        Explore our premium rice, cashew, millet, and fresh spice offerings for domestic and export buyers
                     </p>
                 </div>
 

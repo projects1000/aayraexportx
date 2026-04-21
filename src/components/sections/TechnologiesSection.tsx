@@ -23,7 +23,7 @@ export default function TechnologiesSection() {
                         Sourcing <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">States</span>
                     </h2>
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Direct sourcing from major eucalyptus plantation belts across South India
+                        Direct sourcing from major agro production and processing hubs across South India
                     </p>
                 </div>
 
@@ -72,7 +72,7 @@ export default function TechnologiesSection() {
                     </div>
                     <h4 className="text-2xl font-bold text-white mb-2">Plantation Network</h4>
                     <p className="text-gray-400">
-                        Our established network across South India ensures consistent supply of premium eucalyptus wood poles with reliable logistics and quality control.
+                        Our established network across South India ensures consistent supply of premium rice, cashew, millet, ginger, and turmeric with reliable logistics and quality control.
                     </p>
                 </motion.div>
             </div>

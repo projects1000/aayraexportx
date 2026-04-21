@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2e9cf"/>
+      <stop offset="100%" stop-color="#d4b06f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="#f4d58d" stroke="#c7984f" stroke-width="2">
+    <ellipse cx="180" cy="220" rx="72" ry="12" transform="rotate(-8 180 220)"/>
+    <ellipse cx="340" cy="250" rx="84" ry="14" transform="rotate(7 340 250)"/>
+    <ellipse cx="510" cy="210" rx="88" ry="14" transform="rotate(-10 510 210)"/>
+    <ellipse cx="690" cy="280" rx="92" ry="14" transform="rotate(8 690 280)"/>
+    <ellipse cx="860" cy="240" rx="92" ry="14" transform="rotate(-7 860 240)"/>
+    <ellipse cx="1020" cy="290" rx="76" ry="12" transform="rotate(8 1020 290)"/>
+    <ellipse cx="240" cy="430" rx="94" ry="15" transform="rotate(9 240 430)"/>
+    <ellipse cx="430" cy="500" rx="96" ry="15" transform="rotate(-8 430 500)"/>
+    <ellipse cx="640" cy="450" rx="102" ry="16" transform="rotate(8 640 450)"/>
+    <ellipse cx="850" cy="530" rx="94" ry="15" transform="rotate(-9 850 530)"/>
+    <ellipse cx="1000" cy="470" rx="82" ry="13" transform="rotate(7 1000 470)"/>
+  </g>
+  <rect x="60" y="620" width="1080" height="120" rx="24" fill="#0f172a" fill-opacity="0.82"/>
+  <text x="100" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Parboiled Rice</text>
+</svg>

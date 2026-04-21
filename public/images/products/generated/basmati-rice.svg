@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102341" />
+      <stop offset="100%" stop-color="#183a67" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0.20" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="#0b1220" stroke="#3b82f6" stroke-opacity="0.35" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="url(#glow)" />
+  <g fill="#f8f7ef" stroke="#d6d3c6" stroke-width="1.5">
+    <ellipse cx="360" cy="350" rx="80" ry="10" transform="rotate(-10 360 350)"/>
+    <ellipse cx="540" cy="290" rx="95" ry="11" transform="rotate(7 540 290)"/>
+    <ellipse cx="740" cy="360" rx="100" ry="11" transform="rotate(-8 740 360)"/>
+    <ellipse cx="940" cy="300" rx="108" ry="12" transform="rotate(9 940 300)"/>
+    <ellipse cx="1160" cy="380" rx="110" ry="12" transform="rotate(-6 1160 380)"/>
+    <ellipse cx="420" cy="540" rx="94" ry="11" transform="rotate(8 420 540)"/>
+    <ellipse cx="650" cy="600" rx="108" ry="12" transform="rotate(-7 650 600)"/>
+    <ellipse cx="900" cy="540" rx="116" ry="12" transform="rotate(9 900 540)"/>
+    <ellipse cx="1140" cy="620" rx="104" ry="12" transform="rotate(-8 1140 620)"/>
+  </g>
+  <text x="130" y="860" fill="#ffffff" font-size="68" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Basmati &amp; Non-Basmati Rice</text>
+</svg>

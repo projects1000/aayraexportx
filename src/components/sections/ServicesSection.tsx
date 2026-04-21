@@ -5,43 +5,43 @@ import { CheckCircle, Shield, Ruler, TreeDeciduous, Package2 } from 'lucide-reac
 
 const qualityFeatures = [
     {
-        title: 'Straightness Maintained',
-        description: 'Each pole is carefully selected to ensure straight, uniform structure for optimal use.',
+        title: 'Moisture & Cleanliness Control',
+        description: 'Each lot is checked for moisture, cleanliness, and consistency before dispatch.',
         icon: Ruler,
     },
     {
-        title: 'Uniform Diameter',
-        description: 'Consistent diameter throughout the length for better structural integrity.',
+        title: 'Uniform Grading',
+        description: 'Consistent grading standards are maintained for rice, cashew, and spice products.',
         icon: Package2,
     },
     {
-        title: 'Crack-Free & Fungus-Free',
-        description: 'Thoroughly inspected to ensure no cracks, splits, or fungal damage.',
+        title: 'Defect Screening',
+        description: 'Thorough inspection to minimize foreign matter, breakage, and damaged lots.',
         icon: Shield,
     },
     {
-        title: 'Fresh / Air-Dried Options',
-        description: 'Available in freshly cut or properly air-dried variants as per requirement.',
+        title: 'Freshness Options',
+        description: 'Fresh and processed variants are supplied as per buyer and market requirements.',
         icon: TreeDeciduous,
     },
     {
-        title: 'Debarked / Semi-Debarked',
-        description: 'Professional debarking services available for smooth, clean finish.',
+        title: 'Custom Packing',
+        description: 'Flexible pack sizes and labeling options for wholesale and export shipments.',
         icon: CheckCircle,
     },
 ];
 
 const grades = [
     {
-        title: 'A Grade',
+        title: 'Premium Grade',
         subtitle: 'Export Quality',
-        description: 'Premium export-grade poles with superior straightness, uniform diameter, and flawless finish.',
+        description: 'Top-grade product lots for buyers demanding strict quality consistency and documentation.',
         color: 'from-green-600 to-green-700',
     },
     {
-        title: 'B Grade',
-        subtitle: 'Domestic Use',
-        description: 'High-quality poles suitable for domestic construction, scaffolding, and industrial applications.',
+        title: 'Standard Grade',
+        subtitle: 'Domestic & Bulk Use',
+        description: 'Reliable quality lots suitable for domestic wholesale and volume-driven requirements.',
         color: 'from-yellow-600 to-yellow-700',
     },
 ];
@@ -75,7 +75,7 @@ export default function ServicesSection() {
                         Premium <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-600">Quality & Grading</span>
                     </h2>
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        We maintain strict quality control to ensure every pole meets international export standards.
+                        We maintain strict quality control to ensure every shipment meets domestic and international standards.
                     </p>
                 </div>
 

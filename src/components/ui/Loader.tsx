@@ -64,7 +64,7 @@ export default function Loader() {
                                 AAYRAEXPORTX
                             </span>
                             <span className="text-sm md:text-base text-gray-400 mt-2 tracking-wide">
-                                Eucalyptus Wood Poles
+                                Rice, Cashew, Millet, Ginger, Turmeric
                             </span>
                         </motion.div>
 

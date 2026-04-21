@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, X, Send, Bot, User } from 'lucide-react';
+import { MessageCircle, X, Send } from 'lucide-react';
 import Link from 'next/link';
 
 interface Message {
@@ -21,15 +21,15 @@ const knowledgeBase: KnowledgeEntry[] = [
     // --- Company Info ---
     {
         keywords: ['mission'],
-        response: "Our mission is to simplify technology and deliver scalable, secure, and user-friendly solutions that drive client success."
+        response: 'Our mission is to deliver reliable export-grade agro products with consistent quality, transparent sourcing, and dependable global logistics.'
     },
     {
         keywords: ['vision'],
-        response: "Our vision is to be a global leader in digital innovation—helping businesses unlock their full potential through tech excellence."
+        response: 'Our vision is to be a trusted global agro export partner known for quality, reliability, and long-term customer relationships.'
     },
     {
         keywords: ['who are you', 'what is aayratechx', 'about company', 'about us'],
-        response: "AayraTechX is a forward-thinking IT company committed to driving digital transformation. We specialize in crafting powerful software and integrating with popular platforms."
+        response: 'AAYRAEXPORTX is an Indian wholesaler and exporter of rice, cashew nuts, millet rice, fresh ginger, and turmeric for domestic and international buyers.'
     },
     {
         keywords: ['address', 'location', 'where', 'office', 'map'],
@@ -47,10 +47,10 @@ const knowledgeBase: KnowledgeEntry[] = [
         keywords: ['technology', 'tech', 'stack', 'framework', 'language'],
         response: (
             <span>
-                We specialize in modern web technologies including <strong>Next.js, React, Node.js, and AI solutions</strong>. <br />
-                See more at our{' '}
-                <Link href="/#technologies" className="text-indigo-400 underline hover:text-indigo-300">
-                    Technologies Section
+                Our strength is in <strong>quality sourcing, grading, packaging, and export logistics</strong> for agro commodities. <br />
+                See more in our{' '}
+                <Link href="/#quality" className="text-indigo-400 underline hover:text-indigo-300">
+                    Quality Section
                 </Link>
                 .
             </span>
@@ -60,51 +60,47 @@ const knowledgeBase: KnowledgeEntry[] = [
     // --- Team ---
     {
         keywords: ['ceo', 'pulok', 'director', 'leader'],
-        response: "Our CEO and Director is Pulok Jyotshna Das, leading our creative team for growth-up works."
+        response: 'Our leadership team oversees sourcing, quality assurance, and export operations to ensure reliable delivery for every order.'
     },
     {
         keywords: ['architect', 'priyabrata', 'chinmay', 'sankaraju'],
-        response: "Our architectural team includes Priyabrata Pattanaik (Architect), Chinmay Patel (Database Architect), and Sankaraju Chamarthi (Devops Architect)."
+        response: 'Our operations team manages procurement, quality grading, packaging, and shipment planning to support domestic and export buyers.'
     },
     {
         keywords: ['developer', 'tanish', 'lokesh', 'team'],
-        response: "Our senior developers include Tanish Tanmay Sahoo and Ch Lokesh Reddy. We have a team of experienced developers, designers, and strategists."
+        response: 'We have an experienced team for quality control, bulk order handling, documentation, and customer support.'
     },
 
     // --- Products ---
     {
-        keywords: ['transport', 'fleet', 'vehicle', 'jr transport'],
-        response: "JR Transport Management System is a PWA for complete transport operations including fleet tracking, vehicle & driver management, and route planning."
+        keywords: ['basmati', 'non basmati', 'rice'],
+        response: 'We supply premium basmati and non-basmati rice in export-ready quality and custom pack sizes.'
     },
     {
-        keywords: ['gis', 'map', 'survey', 'geosurvey'],
-        response: "GeoSurvey Pro is an advanced GIS mapping and land survey analysis tool for urban planning and geographical data management."
+        keywords: ['parboiled', 'parboiled rice'],
+        response: 'Yes, we supply parboiled rice with good grain consistency, low broken ratio, and bulk availability.'
     },
     {
-        keywords: ['trading', 'investment', 'stock', 'trademaster'],
-        response: "TradeMaster is an algorithmic trading and investment platform offering real-time market analysis and portfolio management."
+        keywords: ['cashew', '180', '240', 'w180', 'w240'],
+        response: 'We offer premium whole cashew kernels in quality grades from W180 to W240.'
     },
     {
-        keywords: ['hospital', 'hms', 'medical', 'hospitall'],
-        response: "HospitAll is an integrated hospital management system (HMS) for streamlining administrative, clinical, and financial operations."
+        keywords: ['millet', 'millet rice'],
+        response: 'We supply nutritious millet rice options for retail, wholesale, and export markets.'
     },
     {
-        keywords: ['finance', 'analytics', 'fintrack'],
-        response: "FinTrack Pro is an AI-powered financial analytics platform for enterprise resource planning and forecasting."
+        keywords: ['ginger', 'fresh ginger'],
+        response: 'Fresh ginger is available in graded lots suitable for export and processing requirements.'
     },
     {
-        keywords: ['education', 'learning', 'lms', 'edusphere'],
-        response: "EduSphere is an immersive learning management system with virtual reality integration for remote education."
+        keywords: ['turmeric', 'haldi'],
+        response: 'We supply premium turmeric with rich natural color and quality suitable for spice trade and export.'
     },
     {
-        keywords: ['blockchain', 'supply chain', 'logichain'],
-        response: "LogiChain is a Blockchain-based supply chain transparency tool for real-time tracking and verification."
-    },
-    {
-        keywords: ['product', 'service', 'offer'],
+        keywords: ['product', 'products', 'service', 'offer'],
         response: (
             <span>
-                Explore our wide range of products and services on the{' '}
+                Our products include basmati and non-basmati rice, parboiled rice, cashew nuts (W180-W240), millet rice, fresh ginger, and turmeric. Explore details on the{' '}
                 <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
                     Products Page
                 </Link>
@@ -129,53 +125,25 @@ const knowledgeBase: KnowledgeEntry[] = [
     },
     {
         keywords: ['benefit', 'perk', 'remote'],
-        response: "We offer Remote First work, Rapid Growth opportunities, Comprehensive Health & Wellness programs, and access to Cutting-Edge Tech."
+        response: 'We offer a professional work environment with growth opportunities in sourcing, quality operations, and export management.'
     },
 
     // --- Capabilities & Services ---
     {
         keywords: ['ecommerce', 'shop', 'store', 'business website', 'online store'],
-        response: (
-            <span>
-                Yes, we specialize in building robust E-commerce platforms. While our portfolio features complex enterprise solutions like{' '}
-                <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
-                    TradeMaster
-                </Link>{' '}
-                and{' '}
-                <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
-                    JR Transport
-                </Link>
-                , we apply the same high standards to E-commerce development.
-            </span>
-        )
+        response: 'We focus on agro product sourcing and exports. For product inquiries, share your requirement and quantity through our booking page.'
     },
     {
         keywords: ['mobile app', 'android', 'ios', 'flutter', 'react native'],
-        response: (
-            <span>
-                Yes, we develop cross-platform mobile applications. Check out our{' '}
-                <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
-                    JR Transport Management System
-                </Link>{' '}
-                which includes a PWA for fleet management.
-            </span>
-        )
+        response: 'Our core business is agro exports. Please contact us for product specs, pricing, and delivery timelines.'
     },
     {
         keywords: ['custom software', 'bespoke', 'software development'],
-        response: (
-            <span>
-                Absolutely. Custom software development is our core expertise. Browse our{' '}
-                <Link href="/products" className="text-indigo-400 underline hover:text-indigo-300">
-                    Products Page
-                </Link>{' '}
-                to see diverse examples like GIS tools and Hospital Management Systems.
-            </span>
-        )
+        response: 'We are an agro export company. Ask us about rice, cashew nuts, millet rice, ginger, and turmeric supply options.'
     },
     {
         keywords: ['digital marketing', 'seo', 'marketing'],
-        response: "Yes, we offer data-driven digital marketing strategies including SEO, SEM, and Content Strategy to boost your brand visibility."
+        response: 'For business inquiries, our team can help with product catalogs, quotations, and shipment planning.'
     },
 
     // --- General ---
@@ -183,7 +151,7 @@ const knowledgeBase: KnowledgeEntry[] = [
         keywords: ['book', 'appointment', 'schedule'],
         response: (
             <span>
-                You can book our services easily. Please visit our{' '}
+                You can book product inquiries easily. Please visit our{' '}
                 <Link href="/booking" className="text-indigo-400 underline hover:text-indigo-300">
                     Booking Page
                 </Link>
@@ -220,7 +188,7 @@ const knowledgeBase: KnowledgeEntry[] = [
     },
     {
         keywords: ['hello', 'hi', 'hey'],
-        response: "Hello! How can I assist you with AayraTechX today?"
+        response: 'Hello! How can I help you with rice, cashew nuts, millet rice, ginger, or turmeric today?'
     }
 ];
 
@@ -230,7 +198,7 @@ export default function Chatbot() {
     const [messages, setMessages] = useState<Message[]>([
         {
             id: '1',
-            text: 'Hi there! 👋 I can tell you about our team, products, or help you navigate. How can I help?',
+            text: 'Hi there! I can help with product details, quality grades, and booking for rice, cashew, millet, ginger, and turmeric. How can I help?',
             sender: 'bot',
             timestamp: new Date(),
         },
@@ -336,7 +304,7 @@ export default function Chatbot() {
                         <div className="p-4 bg-gray-800 border-b border-gray-700 flex justify-between items-center">
                             <div className="flex items-center space-x-2">
                                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-                                <h3 className="font-bold text-white">AayraTechX Support</h3>
+                                <h3 className="font-bold text-white">AAYRAEXPORTX Support</h3>
                             </div>
                             <button
                                 onClick={() => setIsOpen(false)}
@@ -385,7 +353,7 @@ export default function Chatbot() {
                                     type="text"
                                     value={inputValue}
                                     onChange={(e) => setInputValue(e.target.value)}
-                                    placeholder="Ask about team, products..."
+                                    placeholder="Ask about rice, cashew, millet..."
                                     className="flex-1 bg-gray-900 border border-gray-700 rounded-full px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm"
                                 />
                                 <button

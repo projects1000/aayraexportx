@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1f2b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.20" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="#0b1220" stroke="#fbbf24" stroke-opacity="0.38" />
+  <rect x="80" y="80" width="1440" height="840" rx="36" fill="url(#glow)" />
+  <g>
+    <circle cx="650" cy="510" r="170" fill="#f59e0b" stroke="#b45309" stroke-width="10"/>
+    <circle cx="650" cy="510" r="72" fill="#fde68a" stroke="#f59e0b" stroke-width="8"/>
+    <ellipse cx="930" cy="520" rx="210" ry="115" fill="#d97706" stroke="#92400e" stroke-width="9"/>
+    <ellipse cx="1160" cy="500" rx="165" ry="98" fill="#f59e0b" stroke="#b45309" stroke-width="9"/>
+    <circle cx="930" cy="520" r="38" fill="#fde68a"/>
+    <circle cx="1160" cy="500" r="30" fill="#fde68a"/>
+  </g>
+  <text x="130" y="860" fill="#ffffff" font-size="68" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Turmeric</text>
+</svg>

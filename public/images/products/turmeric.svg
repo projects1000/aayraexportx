@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff3cc"/>
+      <stop offset="100%" stop-color="#e1a320"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="#f7b500" stroke="#b46b00" stroke-width="5" stroke-linejoin="round">
+    <path d="M220 520c0-68 52-123 117-123 38 0 67 16 88 41 16-49 58-84 108-84 64 0 117 54 117 121 0 13-2 25-5 36 20-8 41-12 63-12 67 0 122 56 122 125 0 67-55 122-122 122H343c-68 0-123-56-123-126z"/>
+    <circle cx="850" cy="280" r="80" fill="#ffd45a" stroke="#b46b00"/>
+    <path d="M780 280h140M850 210v140" stroke="#b46b00" stroke-width="10"/>
+  </g>
+  <rect x="60" y="620" width="1080" height="120" rx="24" fill="#0f172a" fill-opacity="0.82"/>
+  <text x="100" y="690" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Turmeric</text>
+</svg>
