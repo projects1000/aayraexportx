@@ -7,6 +7,16 @@ import Link from 'next/link';
 const featuredProducts = [
     {
         id: 1,
+        name: 'Eucalyptus wood log',
+        image: '/images/products/custom/eucalyptus-wood.png',
+        grade: 'A & B Grade',
+        diameter: '4-7 inch',
+        length: '10-20 ft',
+        description: 'Durable eucalyptus wood logs suitable for scaffolding, fencing, and industrial use.',
+        features: ['Straight logs', 'Bulk stock', 'Export ready'],
+    },
+    {
+        id: 2,
         name: 'Basmati & Non-Basmati Rice',
         image: '/images/products/custom/basmati-rice.png',
         grade: 'Export Grade',
@@ -16,7 +26,7 @@ const featuredProducts = [
         features: ['Low moisture', 'Uniform grains', 'Custom packs'],
     },
     {
-        id: 2,
+        id: 3,
         name: 'Parboiled Rice',
         image: '/images/products/custom/parboiled-rice.png',
         grade: 'Premium Grade',
@@ -26,7 +36,7 @@ const featuredProducts = [
         features: ['Low broken ratio', 'Bulk supply', 'Export ready'],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Cashew Nuts',
         image: '/images/products/custom/cashew-nuts.png',
         grade: 'W180 - W240',
@@ -34,16 +44,6 @@ const featuredProducts = [
         length: '10kg-25kg packs',
         description: 'Premium quality cashew kernels, available in grades 180 to 240.',
         features: ['Grade 180-240', 'Uniform kernels', 'Vacuum packed'],
-    },
-    {
-        id: 4,
-        name: 'Millet Rice, Fresh Ginger & Turmeric',
-        image: '/images/products/custom/millet-rice.png',
-        grade: 'Natural Export Quality',
-        diameter: 'Cleaned & Graded',
-        length: '5kg-50kg packs',
-        description: 'Nutritious millet rice and freshly sourced ginger and turmeric for export markets.',
-        features: ['Farm-direct sourcing', 'High freshness', 'Curcumin rich turmeric'],
     },
 ];
 
